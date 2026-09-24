@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia Oculta - Galería Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- TopNavBar for Mobile -->
+    <nav class="mobile-nav">
+        <div class="mobile-nav-title">FANZINE DIGITAL</div>
+        <div class="flex gap-4">
+            <span class="material-symbols-outlined text-primary text-2xl" data-icon="account_circle">account_circle</span>
+            <span class="material-symbols-outlined text-primary text-2xl" data-icon="menu">menu</span>
+        </div>
+    </nav>
+
+    <!-- SideNavBar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1 class="font-headline text-primary tracking-tighter text-uppercase">ART_CURATOR</h1>
+            <p class="label-caps text-pale-gold">Vanguardist Edition</p>
+        </div>
+        
+        <nav id="sidebar-nav" class="sidebar-nav label-caps text-uppercase">
+            <!-- Los tabs se renderizan desde app.js -->
+        </nav>
+        
+        <div style="margin-top: auto; padding-top: 32px;">
+            <button id="btn-submit" class="btn-submit label-caps text-uppercase">
+                <span class="material-symbols-outlined" data-icon="upload">upload</span>
+                SUBMIT WORK
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="main-content">
+        <!-- El contenido principal se inyecta desde app.js -->
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
